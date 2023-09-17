@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "homework7"
+version = "0.1.0"
+description = ""
+authors = ["jockerlol <jockerlol1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.12.0"
+sqlalchemy = "^2.0.20"
+faker = "^19.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
